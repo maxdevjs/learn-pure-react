@@ -1,7 +1,7 @@
 {
-  "name": "mndreact",
+  "name": "react-react-course",
   "version": "1.0.0",
-  "description": "exercise for \"Pure React\" https://daveceddia.com/pure-react-email-course/",
+  "description": "exercises for \"Pure React\" https://daveceddia.com/pure-react-email-course/",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {

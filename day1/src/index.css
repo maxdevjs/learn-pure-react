@@ -1,0 +1,126 @@
+body,
+html {
+  background-color: #f6f6f6;
+}
+
+/* positioning */
+
+.right {
+  float: right;
+}
+
+/* rows */
+
+#toprow {
+  height: 290px;
+  clear: both;
+}
+
+#middlerow {
+  width: 400px;
+  height: 10px;
+}
+
+#bottomrow {
+  height: 100px;
+}
+
+/* columns */
+
+#topleftcolumn {
+  width: 100px;
+  height: 290px;
+}
+
+#bigbox {
+  width: 290px;
+  height: 290px;
+}
+
+#bottomrightbox {
+  width: 20px;
+  height: 100px;
+}
+
+#bottomrightcolumn {
+  height: 100px;
+  width: 30px;
+}
+
+/* dividers */
+
+#divider1 {
+  height: 290px;
+  width: 10px;
+}
+
+#divider2 {
+  height: 10px;
+  width: 100px;
+}
+
+#divider3 {
+  height: 10px;
+  width: 400px;
+}
+
+#divider4 {
+  height: 100px;
+  width: 10px;
+}
+
+#divider5 {
+  height: 10px;
+  width: 30px;
+}
+
+/* elements */
+
+#painting {
+  color: red;
+  background-color: #fff4db;
+  width: 400px;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 10px 0px #8d8d8d;
+}
+
+.mediumbox {
+  width: 100px;
+  height: 140px;
+}
+
+#bottomleftbox {
+  width: 100px;
+  height: 100px;
+}
+
+#bottomcentralbox {
+  width: 250px;
+  height: 100px;
+}
+
+.bottomrightboxes {
+  width: 30px;
+  height: 45px;
+}
+
+/* colors */
+
+.red {
+  background-color: #cc3333;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: #ffd600;
+}
+
+.black {
+  background-color: black;
+}
