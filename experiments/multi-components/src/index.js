@@ -17,9 +17,8 @@ class App extends React.Component {
   }
 
   getCount = c => {
-    console.log("caal");
     this.setState({
-      count: c
+      count: this.state.count + c
     });
   };
 
@@ -32,9 +31,9 @@ class App extends React.Component {
       <div className="app">
         <h3>{this.props.title}</h3>
         <div>
-          <Button sign="-" onClick={this.getCount} />
+          <Button sign="-" getCount={this.getCount} count={this.state.count} />
           <strong>{this.state.count}</strong>
-          <Button sign="+" />
+          <Button sign="+" getCount={this.getCount} count={this.state.count} />
         </div>
       </div>
     );
