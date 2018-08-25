@@ -5,6 +5,7 @@
 - [Concepts](#concepts)
   * [state](#state)
 - [Experiments](#experiments)
+  * [Multi Components](#multi-components)
   * [Redux](#redux)
 
 
@@ -38,7 +39,10 @@ Offline should work too. From `package.json` `scripts` section:
 
 ### Experiments
 
+#### Multi Components
+
+- [multi-components](experiments/multi-components/src) works + TODO
+
 #### Redux
 
-- [multi-components](experiments/multi-components/src) currently broken `this.props.getCount is not a function`
-- [redux](experiments/redux/src) to do
+- [redux](experiments/redux/src) TODO
