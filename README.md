@@ -41,8 +41,8 @@ Offline should work too. From `package.json` `scripts` section:
 
 #### Multi Components
 
-- [multi-components](experiments/multi-components/src) works + TODO
+- [multi-components](experiments/multi-components/) works + TODO
 
 #### Redux
 
-- [redux](experiments/redux/src) TODO
+- [redux](experiments/redux/) TODO
