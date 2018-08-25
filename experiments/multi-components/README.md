@@ -10,6 +10,12 @@ It works, now is time to find out if it makes sense.
 
 Splitting code in a couple components / files and passing props and state down and up among parent / childs.
 
+## Readings
+
+- [Components and Props](https://reactjs.org/docs/components-and-props.html)
+- [Passing Data Between React Components](https://medium.com/@ruthmpardee/passing-data-between-react-components-103ad82ebd17)
+- [How to pass props to components in React](https://www.robinwieruch.de/react-pass-props-to-component/#react-props-child-parent)
+
 ## TO DO 
 
 - Extract `counter` component (?) 
