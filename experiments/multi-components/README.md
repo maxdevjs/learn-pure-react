@@ -18,4 +18,5 @@ Splitting code in a couple components / files and passing props and state down a
 
 ## TO DO 
 
-- Extract `counter` component (?) 
+  [x] Extract `counter` component (?) 
+  [x] Fix `counter` component: does not update

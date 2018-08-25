@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import Button from "./button.jsx";
+import Counter from "./counter.jsx";
 
 import "./index.css";
 
@@ -13,6 +14,7 @@ class App extends React.Component {
 
     // https://reactjs.org/docs/faq-functions.html
     this.getCount = this.getCount.bind(this);
+    this.updateCounter = this.updateCounter.bind(this);
     // this.handleClick = this.handleClick.bind(this);
   }
 
@@ -26,13 +28,20 @@ class App extends React.Component {
     console.log("Click happened");
   }
 
+  updateCounter() {
+    return this.state.count;
+  }
+
   render() {
     return (
       <div className="app">
         <h3>{this.props.title}</h3>
         <div>
           <Button sign="-" getCount={this.getCount} count={this.state.count} />
-          <strong>{this.state.count}</strong>
+          <Counter
+            count={this.state.count}
+            updateCounter={this.updateCounter}
+          />
           <Button sign="+" getCount={this.getCount} count={this.state.count} />
         </div>
       </div>

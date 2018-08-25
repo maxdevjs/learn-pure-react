@@ -40,3 +40,7 @@ body {
 .right {
   float: right;
 }
+
+.counter {
+  background-color: yellow;
+}

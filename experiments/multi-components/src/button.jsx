@@ -5,6 +5,7 @@ export default class Button extends React.Component {
     super(props);
     this.state = { count: this.props.count };
     this.getCount = this.props.getCount;
+
     this.add = this.add.bind(this);
     this.subtract = this.subtract.bind(this);
   }
