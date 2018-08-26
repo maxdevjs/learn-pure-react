@@ -9,7 +9,6 @@ export default class Counter extends React.Component {
   }
 
   render() {
-    console.log(this.state.count);
     let c = this.updateCounter();
     return <strong className="counter">{c}</strong>;
   }
